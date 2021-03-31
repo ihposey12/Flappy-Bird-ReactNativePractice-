@@ -13,18 +13,18 @@ const Obstacles = ({
       <View
         style={{
           position: "absolute",
-          backgroundColor: "green",
+          backgroundColor: "#c1ed87",
           borderRadius: '10px',
           width: obstacleWidth,
           height: obstacleHeight + 100,
           left: obstaclesLeft,
-          bottom: randomBottom + obstacleHeight + gap,
+          bottom: randomBottom + obstacleHeight + gap
         }}
       />
       <View
         style={{
           position: "absolute",
-          backgroundColor: "green",
+          backgroundColor: "#c1ed87",
           borderRadius: '10px',
           width: obstacleWidth,
           height: obstacleHeight,

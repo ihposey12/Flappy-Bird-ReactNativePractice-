@@ -97,7 +97,7 @@ export default function App() {
   return (
     <TouchableWithoutFeedback onPress={jump}>
       <View style={styles.container}>
-        {isGameOver ? <Text style={{fontSize: 30, color: 'red', fontWeight: 'bold'}}>{score}</Text> : false}
+        {isGameOver ? <Text style={{fontSize: 30, color: 'white', fontWeight: 'bold'}}>{score}</Text> : false}
         <Bird birdBottom={birdBottom} birdLeft={birdLeft} />
         <Obstacles
           obstaclesLeft={obstaclesLeft}
@@ -121,7 +121,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "lightgray",
+    backgroundColor: "crimson",
     alignItems: "center",
     justifyContent: "center",
   },
